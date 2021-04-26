@@ -13,4 +13,11 @@ for(let i=1;i<=100;i++){
     console.log(sum, "+", i,"+")
     sum=sum+i;
 }
-var num = 1
+var num = 1e8;
+let sumb=1, n=1;
+while(sumb <= num){
+    sumb*=n;
+    n++
+}
+console.log(sumb);
+
